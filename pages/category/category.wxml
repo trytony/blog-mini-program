@@ -1,0 +1,12 @@
+<block wx:if="{{categories.length > 0}}">
+    <i-tabs current="{{ current_scroll }}" scroll bindchange="handleChangeScroll">
+        <block wx:for="{{categories}}" wx:key="index">
+            <i-tab key="{{item.name}}" title="{{item.name}}"></i-tab>
+        </block>
+    </i-tabs>
+</block>
+<block wx:if="{{isLoad}}">
+    <view class="container">
+        <i-spin fix></i-spin>
+    </view>
+</block>

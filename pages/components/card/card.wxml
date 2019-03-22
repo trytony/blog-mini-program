@@ -1,0 +1,21 @@
+<view class="card">
+    <text class="title" style='font-width: 900px'>{{title}}</text>
+    <view>
+    <image style='width: 100%; height: 180px;' src='{{thumbnail}}' class="thumbnail" mode="aspectFill"/>
+    </view>
+    <view class="content-area">
+        <view class="left-area">
+            <text class="card-content">{{content}}</text>
+            <view class="info-area">
+                <i-icon type="addressbook" style='margin-right: 6rpx'/>
+                <text >{{publisher}}</text>
+                <i-icon type="activity" style='margin: 0 6rpx 0 30rpx'/>
+                <text>{{date}}</text>
+                <i-icon type="browse" style='margin: 0 6rpx 0 30rpx' />
+                <text>{{views}}</text>
+                <i-icon type="label" style='margin: 0 6rpx 0 30rpx' />
+                <text>{{tags}}</text>
+            </view>
+        </view>
+    </view>
+</view>

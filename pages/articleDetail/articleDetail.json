@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "文章详情",
+    "usingComponents": {
+        "i-spin": "../components/iview/spin/index"
+    }
+}

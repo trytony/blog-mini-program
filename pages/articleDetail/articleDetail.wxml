@@ -1,0 +1,17 @@
+<block wx:if="{{isLoad}}">
+    <view class="container">
+        <i-spin fix></i-spin>
+    </view>
+</block>
+<block wx:if="{{!isLoad}}">
+    <view class="article-detail size16">
+        <view class="center">{{articleDetail.title}}</view>
+        <view class="center opacity_5 size12" style="padding:10px;">{{articleDetail.published_time}}
+            <text style="padding-left:20px;">浏览次数：{{articleDetail.visitors}}次</text>
+        </view>
+        <import src="../../wxParse/wxParse.wxml" />
+        <view class="wxParse">
+            <template is="wxParse" data="{{wxParseData:article.nodes}}" />
+        </view>
+    </view>
+</block>

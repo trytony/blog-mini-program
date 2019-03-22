@@ -1,0 +1,16 @@
+<block wx:if="{{isLoad}}">
+    <view class="container">
+        <i-spin fix></i-spin>
+    </view>
+</block>
+<block wx:if="{{articles.length > 0}}">
+    <view class="container">
+        <view class="cards-area">
+            <view wx:for="{{articles}}" wx:key="index">
+                <view bindtap="articleDetailTap" data-id="{{item.id}}" wx:if="{{item.id}}">
+                    <card title="{{item.title}}" content="{{item.subtitle}}" publisher="{{item.user.nickname}}" tags="{{item.tags_str}}" date="{{item.published_at}}" views="{{item.visitors}}" thumbnail="{{item.page_image}}" />
+                </view>
+            </view>
+        </view>
+    </view>
+</block>

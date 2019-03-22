@@ -1,0 +1,4 @@
+
+<view class="container">
+    <i-spin fix></i-spin>
+</view>

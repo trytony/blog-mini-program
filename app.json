@@ -1,0 +1,46 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/articleDetail/articleDetail",
+        "pages/personalCenter/personalCenter",
+        "pages/category/category",
+        "pages/discuss/discuss"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "张秉良博客",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#a9b7b7",
+        "selectedColor": "#51759d",
+        "borderStyle": "black",
+        "list": [
+            {
+                "selectedIconPath": "images/index1_selected.png",
+                "iconPath": "images/index1.png",
+                "pagePath": "pages/index/index",
+                "text": "首页"
+            },
+            {
+                "selectedIconPath": "images/category1_selected.png",
+                "iconPath": "images/category1.png",
+                "pagePath": "pages/category/category",
+                "text": "分类"
+            },
+            {
+                "selectedIconPath": "images/discuss3_selected.png",
+                "iconPath": "images/discuss3.png",
+                "pagePath": "pages/discuss/discuss",
+                "text": "讨论"
+            },
+            {
+                "selectedIconPath": "images/my3_selected.png",
+                "iconPath": "images/my3.png",
+                "pagePath": "pages/personalCenter/personalCenter",
+                "text": "我的"
+            }
+        ]
+    }
+}
