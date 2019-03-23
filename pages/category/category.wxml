@@ -1,9 +1,28 @@
 <block wx:if="{{categories.length > 0}}">
     <i-tabs current="{{ current_scroll }}" scroll bindchange="handleChangeScroll">
         <block wx:for="{{categories}}" wx:key="index">
-            <i-tab key="{{item.name}}" title="{{item.name}}"></i-tab>
+            <i-tab key="{{item.id}}" title="{{item.name}}"></i-tab>
         </block>
     </i-tabs>
+
+    <block wx:if="{{articlesOfCategory.length > 0}}">
+        <block wx:for="{{articlesOfCategory}}" wx:key="index">
+            <i-card full="true" title="{{item.title}}" thumb="{{item.page_image}}"bindtap="articleDetailTap" data-id="{{item.id}}" >
+                <view slot="content">{{item.subtitle}}</view>
+                <view slot="footer">
+                    <i-icon type="addressbook" />
+                    {{item.user.name}}
+                    <i-icon type="activity" style='margin: 0 0 0 30rpx' />
+                    {{item.published_at}}
+                    <i-icon type="browse" style='margin: 0 0 0 30rpx' />
+                    {{item.visitors}}
+                    <i-icon type="label" style='margin: 0 0 0 30rpx' />
+                    {{item.tags_str}}
+                </view>
+            </i-card>
+        </block>
+    </block>
+
 </block>
 <block wx:if="{{isLoad}}">
     <view class="container">

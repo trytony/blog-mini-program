@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8585f61a-c08f-40d5-98b0-bde1e20f4660" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/category/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/category/category.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/category/category.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/category/category.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/category/category.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/category/category.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/iview/card/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/iview/card/index.wxss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />

@@ -4,6 +4,8 @@
         "i-spin": "../components/iview/spin/index",
         "i-icon": "../components/iview/icon/index",
         "i-tab-bar": "../components/iview/tab-bar/index",
-        "i-tab-bar-item": "../components/iview/tab-bar-item/index"
+        "i-tab-bar-item": "../components/iview/tab-bar-item/index",
+        "i-message": "../components/iview/message/index",
+        "i-button": "../components/iview/button/index"
     }
 }

@@ -3,6 +3,7 @@
         <i-spin fix></i-spin>
     </view>
 </block>
+<i-message id="message" />
 <block wx:if="{{articles.length > 0}}">
     <view class="container">
         <view class="cards-area">

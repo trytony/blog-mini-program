@@ -1,6 +1,8 @@
 //index.js
 //获取应用实例
-const app = getApp()
+const app = getApp();
+
+const { $Message } = require('../components/iview/base/index');
 
 Page({
     data: {
@@ -12,6 +14,7 @@ Page({
         articles: [],
         isLoadingMore: true,
         currentPage: 1,
+        networkError: false,
     },
     articleDetailTap(e) {
         wx.navigateTo({
@@ -22,6 +25,19 @@ Page({
     bindViewTap: function() {
         wx.navigateTo({
             url: '../logs/logs'
+        })
+    },
+    onShow: function() {
+        wx.getNetworkType({
+            success: res => {
+                const networkType = res.networkType;
+                if (networkType === 'none') {
+                    $Message({
+                        content: '网络连接失败，请检查网络',
+                        type: 'error'
+                    });
+                }
+            }
         })
     },
     onLoad: function() {

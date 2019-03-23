@@ -1,15 +1,15 @@
 {
     "pages": [
         "pages/index/index",
+        "pages/category/category",
         "pages/articleDetail/articleDetail",
         "pages/personalCenter/personalCenter",
-        "pages/category/category",
         "pages/discuss/discuss"
     ],
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "张秉良博客",
+        "navigationBarTitleText": "赵梦博客",
         "navigationBarTextStyle": "black"
     },
     "tabBar": {
