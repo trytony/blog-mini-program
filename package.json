@@ -1,0 +1,25 @@
+{
+  "name": "blog-mini-program",
+  "version": "1.0.0",
+  "description": "## License",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:iftony/blog-mini-program.git"
+  },
+  "keywords": [],
+  "author": "zhangbingliang",
+  "license": "MIT",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
