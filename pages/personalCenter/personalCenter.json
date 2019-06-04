@@ -1,5 +1,8 @@
 {
     "usingComponents": {
-        "i-spin": "../components/iview/spin/index"
+        "i-spin": "../components/iview/spin/index",
+        "i-button": "../components/iview/button/index",
+        "i-cell-group": "../components/iview/cell-group/index",
+        "i-cell": "../components/iview/cell/index"
     }
 }

@@ -1,0 +1,34 @@
+<view class="container">
+    <block wx:if="{{isLoad}}">
+        <i-spin fix></i-spin>
+    </block>
+    <view>
+        <image class="avatar" src='https://cloud-image.blog.zblzm.xyz/cover/2019/04/25/Xyg31dvRKIlhP78xyccySbvL2QhQIh7EhD7qwWyg.jpg'></image>
+    </view>
+    <view class='title'>TONY BLOG</view>
+    <view style='font-family: Arial;color: #51759d;font-weight: 900;'>
+        <button open-type='contact'>点击此处接入客服...</button>
+    </view>
+    <view>
+        <i-tag class="tags" name="90后" type="border" color="red">
+            90后
+        </i-tag>
+        <i-tag class="tags" name="眼镜男" color="green" type="border">
+            眼镜男
+        </i-tag>
+        <i-tag class="tags" name="程序猿" color="yellow" type="border">
+            程序猿
+        </i-tag>
+        <i-tag class="tags" name="PHP开发工程师" color="blue" type="border">
+            PHP开发工程师
+        </i-tag>
+    </view>
+    <view style="margin-top: 20rpx;">
+        <i-tag class="tags" name="web" color="green" type="hot">
+            Web: https://blog.zblzm.xyz
+        </i-tag>
+        <i-tag class="tags" name="qq" color="red" type="hot">
+            QQ: 975151610
+        </i-tag>
+    </view>
+</view>

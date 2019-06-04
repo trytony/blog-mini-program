@@ -1,14 +1,14 @@
 {
     "pages": [
+        "pages/introduce/introduce",
         "pages/index/index",
         "pages/category/category",
         "pages/articleDetail/articleDetail",
-        "pages/personalCenter/personalCenter",
-        "pages/discuss/discuss"
+        "pages/personalCenter/personalCenter"
     ],
     "window": {
         "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#fff",
+        "navigationBarBackgroundColor": "#8b9eb1",
         "navigationBarTitleText": "张秉良博客",
         "navigationBarTextStyle": "black"
     },
@@ -18,29 +18,30 @@
         "borderStyle": "black",
         "list": [
             {
-                "selectedIconPath": "images/index1_selected.png",
-                "iconPath": "images/index1.png",
-                "pagePath": "pages/index/index",
+                "selectedIconPath": "images/index_selected.png",
+                "iconPath": "images/index.png",
+                "pagePath": "pages/introduce/introduce",
                 "text": "首页"
             },
             {
-                "selectedIconPath": "images/category1_selected.png",
-                "iconPath": "images/category1.png",
+                "selectedIconPath": "images/article_selected.png",
+                "iconPath": "images/article.png",
+                "pagePath": "pages/index/index",
+                "text": "博文"
+            },
+            {
+                "selectedIconPath": "images/category_selected.png",
+                "iconPath": "images/category.png",
                 "pagePath": "pages/category/category",
-                "text": "分类"
+                "text": "探索"
             },
             {
-                "selectedIconPath": "images/discuss3_selected.png",
-                "iconPath": "images/discuss3.png",
-                "pagePath": "pages/discuss/discuss",
-                "text": "讨论"
-            },
-            {
-                "selectedIconPath": "images/my3_selected.png",
-                "iconPath": "images/my3.png",
+                "selectedIconPath": "images/my_selected.png",
+                "iconPath": "images/my.png",
                 "pagePath": "pages/personalCenter/personalCenter",
                 "text": "我的"
             }
         ]
-    }
+    },
+    "sitemapLocation": "sitemap.json"
 }

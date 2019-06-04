@@ -1,4 +1,30 @@
+<view>
 
-<view class="container">
-    <i-spin fix></i-spin>
+    <block wx:if="{{isLoad}}">
+            <i-spin fix></i-spin>
+    </block>
+
+
+    <view class="container">
+        <view style="width: 150rpx; height: 150rpx; border-radius: 75rpx;">
+            <open-data type="userAvatarUrl"></open-data>
+        </view>
+        <view style="margin-top: 25rpx;">
+            <open-data type="userNickName"></open-data>
+        </view>
+    </view>
+
+
+    <view>
+        <i-cell-group>
+        <i-cell title="最近浏览" is-link></i-cell>
+        <i-cell title="我的收藏" is-link></i-cell>
+        <i-cell title="功能反馈" is-link></i-cell>
+        <i-cell title="联系作者" is-link></i-cell>
+        <i-cell title="关于张秉良博客" is-link></i-cell>
+    </i-cell-group>
+    </view>
+    <!-- 
+    <i-button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" type="ghost" shape="circle" size="small">授权登录</i-button> -->
+
 </view>

@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+        "i-spin": "../components/iview/spin/index",
+        "i-avatar": "../components/iview/avatar/index",
+        "i-tag": "../components/iview/tag/index"
+    }
+}
