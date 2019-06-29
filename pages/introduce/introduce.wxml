@@ -3,9 +3,9 @@
         <i-spin fix></i-spin>
     </block>
     <view>
-        <image class="avatar" src='https://cloud-image.blog.zblzm.xyz/cover/2019/04/25/Xyg31dvRKIlhP78xyccySbvL2QhQIh7EhD7qwWyg.jpg'></image>
+        <image class="avatar" src='https://cloud-image.blog.zblzm.xyz/cover/2019/06/29/mLlUOBvjLwGLM1HtcvtfXKBMxuT6FjtwsVcYMKY9.jpg'></image>
     </view>
-    <view class='title'>TONY BLOG</view>
+    <view class='title'>ZM BLOG</view>
     <view style='font-family: Arial;color: #51759d;font-weight: 900;'>
         <button open-type='contact'>点击此处接入客服...</button>
     </view>
@@ -14,13 +14,13 @@
             90后
         </i-tag>
         <i-tag class="tags" name="眼镜男" color="green" type="border">
-            眼镜男
+            萌妹子
         </i-tag>
         <i-tag class="tags" name="程序猿" color="yellow" type="border">
             程序猿
         </i-tag>
         <i-tag class="tags" name="PHP开发工程师" color="blue" type="border">
-            PHP开发工程师
+            WEB前端开发工程师
         </i-tag>
     </view>
     <view style="margin-top: 20rpx;">
@@ -28,7 +28,7 @@
             Web: https://blog.zblzm.xyz
         </i-tag>
         <i-tag class="tags" name="qq" color="red" type="hot">
-            QQ: 975151610
+            QQ: 1728866363
         </i-tag>
     </view>
 </view>
