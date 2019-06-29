@@ -1,6 +1,6 @@
 # blog-mini-program
 
-技术博客小程序
+技术博客小程序，Web: https://blog.zblzm.xyz
 
 ## License
 
