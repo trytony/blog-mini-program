@@ -1,11 +1,13 @@
 <block wx:if="{{categories.length > 0}}">
-    <i-tabs current="{{ current_scroll }}" scroll bindchange="handleChangeScroll">
+    <view style="position:fixed;height:84rpx;width:100%;top:0;z-index:2000;">
+     <i-tabs current="{{ current_scroll }}" scroll bindchange="handleChangeScroll">
         <block wx:for="{{categories}}" wx:key="index">
             <i-tab key="{{item.id}}" title="{{item.name}}"></i-tab>
         </block>
-    </i-tabs>
+      </i-tabs>
+    </view>
 
-    <block wx:if="{{articlesOfCategory.length > 0}}">
+    <view wx:if="{{articlesOfCategory.length > 0}}" style="margin-top:88rpx;">
         <block wx:for="{{articlesOfCategory}}" wx:key="index">
             <i-card full="true" title="{{item.title}}" thumb="{{item.page_image}}"bindtap="articleDetailTap" data-id="{{item.id}}" >
                 <view slot="content">{{item.subtitle}}</view>
@@ -21,7 +23,7 @@
                 </view>
             </i-card>
         </block>
-    </block>
+    </view>
 
 </block>
 <block wx:if="{{isLoad}}">
