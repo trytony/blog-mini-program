@@ -10,7 +10,7 @@ Page({
   onLoad: function(options) {
     var that = this;
     wx.request({
-      url: 'https://blog.zblzm.xyz/api/mini-program/articles/' + options.id,
+      url: 'https://blog.zblzm.work/api/mini-program/articles/' + options.id,
       header: {
         'content-type': 'application/json'
       },

@@ -23,7 +23,7 @@ Page({
             this.getArticlesOfCategory(this.data.categories[0].id);
         } else {
             wx.request({
-                url: 'https://blog.zblzm.xyz/api/mini-program/categories',
+                url: 'https://blog.zblzm.work/api/mini-program/categories',
                 header: {
                     'content-type': 'application/json'
                 },
@@ -44,7 +44,7 @@ Page({
 
     getArticlesOfCategory(id) {
         wx.request({
-            url: 'https://blog.zblzm.xyz/api/mini-program/articles?page=1&pageSize=99999&c_id=' + id,
+            url: 'https://blog.zblzm.work/api/mini-program/articles?page=1&pageSize=99999&c_id=' + id,
             header: {
                 'content-type': 'application/json'
             },
