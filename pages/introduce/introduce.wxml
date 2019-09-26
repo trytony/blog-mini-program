@@ -3,7 +3,7 @@
         <i-spin fix></i-spin>
     </block>
     <view>
-        <image class="avatar" src='https://cloud-image.blog.zblzm.xyz/cover/2019/06/29/mLlUOBvjLwGLM1HtcvtfXKBMxuT6FjtwsVcYMKY9.jpg'></image>
+        <image class="avatar" src='https://cloud-image.blog.zblzm.work/cover/2019/06/29/mLlUOBvjLwGLM1HtcvtfXKBMxuT6FjtwsVcYMKY9.jpg'></image>
     </view>
     <view class='title'>ZM BLOG</view>
     <view style='font-family: Arial;color: #51759d;font-weight: 900;'>
@@ -25,7 +25,7 @@
     </view>
     <view style="margin-top: 20rpx;">
         <i-tag class="tags" name="web" color="green" type="hot">
-            Web: https://blog.zblzm.xyz
+            Web: https://blog.zblzm.work
         </i-tag>
         <i-tag class="tags" name="qq" color="red" type="hot">
             QQ: 1728866363

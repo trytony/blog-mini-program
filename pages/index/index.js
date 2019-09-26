@@ -79,7 +79,7 @@ Page({
             }, 1500);
         } else {
             wx.request({
-                url: 'https://blog.zblzm.xyz/api/mini-program/articles',
+                url: 'https://blog.zblzm.work/api/mini-program/articles',
                 header: {
                     'content-type': 'application/json'
                 },
@@ -107,7 +107,7 @@ Page({
             currentPage: newCurrentPage,
         })
         wx.request({
-            url: 'https://blog.zblzm.xyz/api/mini-program/articles?page=' + newCurrentPage,
+            url: 'https://blog.zblzm.work/api/mini-program/articles?page=' + newCurrentPage,
             header: {
                 'content-type': 'application/json'
             },
